@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseDialogStyle" >
+        <item name="android:windowBackground">#00000000</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="DialogBottomShowStyle" parent="BaseDialogStyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_out</item>
+    </style>
+
+    <style name="DialogRotateStyle" parent="BaseDialogStyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_rotate_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_rotate_out</item>
+    </style>
+
+    <style name="DialogTopShowStyle" parent="BaseDialogStyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_top_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_top_out</item>
+    </style>
+
+    <style name="DialogFadeShowStyle" parent="BaseDialogStyle">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="DialogScaleShowStyle" parent="BaseDialogStyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_scale_out</item>
+    </style>
+
+    <style name="DialogXScaleShowStyle" parent="BaseDialogStyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_x_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_x_scale_out</item>
+    </style>
+</resources>

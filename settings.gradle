@@ -1,0 +1,2 @@
+include ':app', ':gooddialog'
+rootProject.name='GoodDialog'
